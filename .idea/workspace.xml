@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="246c64f9-b25a-402b-beb0-793c8817b6e2" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WekaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PcaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WekaTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PcaTest.testCpu">
     <configuration name="WekaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WekaTest" />
       <module name="Dimensionality-Reduction" />
@@ -54,8 +54,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PcaTest.testCpu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dimensionality-Reduction" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PcaTest" />
+      <option name="METHOD_NAME" value="testCpu" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PcaTest.testCpu" />
         <item itemvalue="应用程序.WekaTest" />
       </list>
     </recent_temporary>
@@ -76,11 +87,19 @@
       <option name="project" value="LOCAL" />
       <updated>1665289350293</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pca">
+      <created>1665402372772</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665402372772</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="pca" />
+    <option name="LAST_COMMIT_MESSAGE" value="pca" />
   </component>
 </project>

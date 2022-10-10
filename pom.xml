@@ -18,6 +18,11 @@
             <artifactId>weka-stable</artifactId>
             <version>3.8.6</version>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+        </dependency>
     </dependencies>
 
 
