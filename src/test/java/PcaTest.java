@@ -16,20 +16,20 @@ public class PcaTest {
     public void testCpu() throws Exception {
         data=ConverterUtils.DataSource.read("src/main/resources/cpu.arff");
         data.setClassIndex(data.numAttributes()-1);
-        new Pca().out(data);
+        new Pca().out(data,3);
     }
 
     @Test
     public void testTitanic() throws Exception {
         data=ConverterUtils.DataSource.read("src/main/resources/titanic.arff");
         data.setClassIndex(data.numAttributes()-1);
-        new Pca().out(data);
+        new Pca().out(data,4);
     }
 
     @Test
     public void testDiabetes() throws Exception{
         data=ConverterUtils.DataSource.read("src/main/resources/diabetes.arff");
         data.setClassIndex(data.numAttributes()-1);
-        new Pca().out(data);
+        new Pca().out(data,4);
     }
 }

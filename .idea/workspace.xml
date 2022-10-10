@@ -46,7 +46,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.PcaTest.testCpu">
+  <component name="RunManager" selected="JUnit.PcaTest.testDiabetes">
     <configuration name="WekaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WekaTest" />
       <module name="Dimensionality-Reduction" />
@@ -64,8 +64,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PcaTest.testDiabetes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dimensionality-Reduction" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PcaTest" />
+      <option name="METHOD_NAME" value="testDiabetes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PcaTest.testTitanic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dimensionality-Reduction" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PcaTest" />
+      <option name="METHOD_NAME" value="testTitanic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PcaTest.testDiabetes" />
+        <item itemvalue="JUnit.PcaTest.testTitanic" />
         <item itemvalue="JUnit.PcaTest.testCpu" />
         <item itemvalue="应用程序.WekaTest" />
       </list>

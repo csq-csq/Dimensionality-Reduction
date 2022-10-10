@@ -6,9 +6,9 @@ import weka.attributeSelection.PrincipalComponents;
 import weka.filters.Filter;
 
 public class Pca {
-    public void out(Instances data) throws Exception {
+    public void out(Instances data,int number) throws Exception {
         Ranker ranker = new Ranker();
-        ranker.setNumToSelect(3);
+        ranker.setNumToSelect(number);
 
         PrincipalComponents pca=new PrincipalComponents();
         pca.buildEvaluator(data);
