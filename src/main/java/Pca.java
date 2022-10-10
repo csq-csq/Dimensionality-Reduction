@@ -21,7 +21,7 @@ public class Pca {
         as.SelectAttributes(data);
         Instances instances = as.reduceDimensionality(data);
 //        System.out.println(instances.toString());
-        System.out.println(pca);
+        System.out.println(pca);//用上面一行替换本行即可查看降维后的数据集
     }
 
 

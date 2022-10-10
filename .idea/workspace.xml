@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="246c64f9-b25a-402b-beb0-793c8817b6e2" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PcaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WekaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pca.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,12 +115,27 @@
       <option name="project" value="LOCAL" />
       <updated>1665402372772</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pca的test">
+      <created>1665403638528</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665403638528</updated>
+    </task>
+    <task id="LOCAL-00004" summary="pca的test">
+      <created>1665403804018</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665403804018</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
     <MESSAGE value="pca" />
-    <option name="LAST_COMMIT_MESSAGE" value="pca" />
+    <MESSAGE value="pca的test" />
+    <option name="LAST_COMMIT_MESSAGE" value="pca的test" />
   </component>
 </project>
