@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="246c64f9-b25a-402b-beb0-793c8817b6e2" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lda.java" afterDir="false" />
+    <list default="true" id="246c64f9-b25a-402b-beb0-793c8817b6e2" name="变更" comment="pca修改注释">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PcaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PcaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.PcaTest.testDiabetes">
+  <component name="RunManager" selected="JUnit.PcaTest.testCpuPca">
     <configuration name="WekaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WekaTest" />
       <module name="Dimensionality-Reduction" />
@@ -58,6 +58,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PcaTest" />
       <option name="METHOD_NAME" value="testCpu" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PcaTest.testCpuPca" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dimensionality-Reduction" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PcaTest" />
+      <option name="METHOD_NAME" value="testCpuPca" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,9 +95,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PcaTest.testCpuPca" />
+        <item itemvalue="JUnit.PcaTest.testCpu" />
         <item itemvalue="JUnit.PcaTest.testDiabetes" />
         <item itemvalue="JUnit.PcaTest.testTitanic" />
-        <item itemvalue="JUnit.PcaTest.testCpu" />
         <item itemvalue="应用程序.WekaTest" />
       </list>
     </recent_temporary>
@@ -129,13 +140,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665403804018</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="pca修改注释">
+      <created>1665407261154</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665407261154</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
     <MESSAGE value="pca" />
     <MESSAGE value="pca的test" />
-    <option name="LAST_COMMIT_MESSAGE" value="pca的test" />
+    <MESSAGE value="pca修改注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="pca修改注释" />
   </component>
 </project>

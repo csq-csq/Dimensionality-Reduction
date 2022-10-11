@@ -4,32 +4,46 @@ import weka.core.converters.ConverterUtils;
 
 public class PcaTest {
     Instances data;
-    {
-        try {
-            data= ConverterUtils.DataSource.read("src/main/resources/cpu.arff");
-            data.setClassIndex(data.numAttributes()-1);
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
-    }
+
     @Test
-    public void testCpu() throws Exception {
+    public void testCpuPca() throws Exception {
         data=ConverterUtils.DataSource.read("src/main/resources/cpu.arff");
         data.setClassIndex(data.numAttributes()-1);
-        new Pca().out(data,3);
+        new Pca().out(data,3,2);
     }
 
     @Test
-    public void testTitanic() throws Exception {
+    public void testCpuResult() throws Exception{
+        data=ConverterUtils.DataSource.read("src/main/resources/cpu.arff");
+        data.setClassIndex(data.numAttributes()-1);
+        new Pca().out(data,3,1);
+    }
+
+    @Test
+    public void testTitanicPca() throws Exception {
         data=ConverterUtils.DataSource.read("src/main/resources/titanic.arff");
         data.setClassIndex(data.numAttributes()-1);
-        new Pca().out(data,4);
+        new Pca().out(data,4,2);
     }
 
     @Test
-    public void testDiabetes() throws Exception{
+    public void testTitanicResult() throws Exception {
+        data=ConverterUtils.DataSource.read("src/main/resources/titanic.arff");
+        data.setClassIndex(data.numAttributes()-1);
+        new Pca().out(data,4,1);
+    }
+
+    @Test
+    public void testDiabetesPca() throws Exception{
         data=ConverterUtils.DataSource.read("src/main/resources/diabetes.arff");
         data.setClassIndex(data.numAttributes()-1);
-        new Pca().out(data,4);
+        new Pca().out(data,4,2);
+    }
+
+    @Test
+    public void testDiabetesResult() throws Exception{
+        data=ConverterUtils.DataSource.read("src/main/resources/diabetes.arff");
+        data.setClassIndex(data.numAttributes()-1);
+        new Pca().out(data,4,1);
     }
 }

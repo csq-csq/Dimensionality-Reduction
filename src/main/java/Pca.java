@@ -6,7 +6,7 @@ import weka.attributeSelection.PrincipalComponents;
 import weka.filters.Filter;
 
 public class Pca {
-    public void out(Instances data,int number) throws Exception {
+    public void out(Instances data,int number,int mode) throws Exception {
         Ranker ranker = new Ranker();
         ranker.setNumToSelect(number);
 
@@ -20,8 +20,10 @@ public class Pca {
         as.setSearch(ranker);
         as.SelectAttributes(data);
         Instances instances = as.reduceDimensionality(data);
-//        System.out.println(instances.toString());
-        System.out.println(pca);//用上面一行替换本行即可查看降维后的数据集
+        switch (mode) {
+            case 1:System.out.println(instances.toString());
+            case 2:System.out.println(pca);
+        }
     }
 
 
